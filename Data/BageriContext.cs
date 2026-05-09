@@ -8,6 +8,10 @@ namespace BageriApi.Data
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<RawMaterial> RawMaterials { get; set; }
         public DbSet<SupplierRawMaterial> SupplierRawMaterials { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
         public BageriContext(DbContextOptions<BageriContext> options) : base(options)
         {

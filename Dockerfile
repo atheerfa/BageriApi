@@ -1,0 +1,4 @@
+FROM mysql:8.0
+ENV MYSQL_ROOT_PASSWORD=bageripassword
+ENV MYSQL_DATABASE=bageridatabase
+EXPOSE 3306
